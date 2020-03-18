@@ -78,3 +78,7 @@ IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
 					animationDuration: Double = 0.3,
 					tabItemImageFont: Font = .largeTitle,
 					tabItemTextFont: Font = .caption)
+
+## Notes
+
+None.
