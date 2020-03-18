@@ -6,6 +6,8 @@ A tab view where the tab bar can be scrolled and thus provide many tab items.
 
 The selected index is provided through the service and can be used to determine the destination view to display. 
 
+[Sample](Sample.png)
+
 ## Prerequisites
 
 iOS 13 / macOS 10.15
@@ -65,7 +67,7 @@ You can provide a configuration with settings for most of the view's parts:
 	
 where:
 
-IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
+	IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
 					destinationBackgroundColor: Color = .clear,
 					indicatorForegroundColor: Color = .white,
 					tabItemSelectedColor: Color = .red,
