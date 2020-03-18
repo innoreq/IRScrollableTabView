@@ -6,9 +6,14 @@ A tab view where the tab bar can be scrolled and thus provide many tab items.
 
 The selected index is provided through the service and can be used to determine the destination view to display. 
 
+## Prerequisites
+
+iOS 13 / macOS 10.15
+
 ## Installation
 
-Use the Swift Package Manager with the repo's URL and add it to your project.
+Use the Swift Package Manager with the repo's URL and add it to your project:
+git@github.com:innoreq/IRScrollableTabView.git / from: 1.0.0
 
 ## Usage
 
