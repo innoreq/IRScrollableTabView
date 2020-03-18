@@ -13,7 +13,7 @@ iOS 13 / macOS 10.15
 ## Installation
 
 Use the Swift Package Manager with the repo's URL and add it to your project:
-git@github.com:innoreq/IRScrollableTabView.git / from: 1.0.0
+	git@github.com:innoreq/IRScrollableTabView.git / from: 1.0.0
 
 ## Usage
 
@@ -57,5 +57,24 @@ Use the view:
 	}
 	
 	
-## Notes
+## Configuration
 
+You can provide a configuration with settings for most of the view's parts:
+
+	IRScrollableTabView(configuration: IRScrollableTabView.Configuration)
+	
+where:
+
+IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
+					destinationBackgroundColor: Color = .clear,
+					indicatorForegroundColor: Color = .white,
+					tabItemSelectedColor: Color = .red,
+					tabItemUnselectedColor: Color = .blue,
+					itemWidth: CGFloat = 70,
+					itemSpacing: CGFloat = 10,
+					indicatorEnlargement: CGFloat = 6,
+					indicatorCornerRadius: CGFloat = 5,
+					indicatorShadowRadius: CGFloat = 5,
+					animationDuration: Double = 0.3,
+					tabItemImageFont: Font = .largeTitle,
+					tabItemTextFont: Font = .caption)
