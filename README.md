@@ -65,7 +65,7 @@ You can provide a configuration with settings for most of the view's parts:
 	
 where:
 
-IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
+	IRScrollableTabView.Configuration(separatorLineColor: Color = .clear,
 					destinationBackgroundColor: Color = .clear,
 					indicatorForegroundColor: Color = .white,
 					tabItemSelectedColor: Color = .red,
