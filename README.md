@@ -6,7 +6,7 @@ A tab view where the tab bar can be scrolled and thus provide many tab items.
 
 The selected index is provided through the service and can be used to determine the destination view to display. 
 
-[Sample](Sample.png)
+[](Sample.png)
 
 ## Prerequisites
 
