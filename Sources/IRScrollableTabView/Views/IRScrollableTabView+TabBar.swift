@@ -58,7 +58,6 @@ extension IRScrollableTabView {
 				.onPreferenceChange(TabBarPreferenceKey.self) { preferences in
 					
 					self.rect = preferences.first?.rect ?? CGRect()
-					debugPrint(self.rect)
 			}
 		}
 	}
