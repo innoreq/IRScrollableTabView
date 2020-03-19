@@ -15,7 +15,7 @@ iOS 13 / macOS 10.15
 ## Installation
 
 Use the Swift Package Manager with the repo's URL and add it to your project:
-	git@github.com:innoreq/IRScrollableTabView.git / from: 1.0.0
+	git@github.com:innoreq/IRScrollableTabView.git / from: 1.8.0
 
 ## Usage
 
