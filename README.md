@@ -8,7 +8,7 @@ The selected index is provided through the service and can be used to determine 
 
 It is realized in pure SwiftUI and shows how PreferenceKeys can be used to adopt a container to its children's sizes.
 
-The number of tab items is currently limited to 15 (well, should be sufficient, actually...)
+The number of tab items is currently limited (hardcoded) to 15 (well, should be sufficient, actually...).
 
 ![Example Image](Sample.png)
 
