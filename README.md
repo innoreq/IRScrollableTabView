@@ -83,4 +83,4 @@ where:
 
 ## Notes
 
-None.
+Please feel free to participate if you think that things may be improved.
