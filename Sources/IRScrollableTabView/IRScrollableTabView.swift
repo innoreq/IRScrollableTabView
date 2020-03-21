@@ -40,7 +40,8 @@ public struct IRScrollableTabView: View {
 				.foregroundColor(configuration.destinationBackgroundColor)
 				.frame(height: 90)
 				.shadow(radius: 10)
-				.overlay(IRScrollableTabView.TabBar(configuration: configuration))
+//				.overlay(IRScrollableTabView.TabBar(configuration: configuration))
+				.overlay(TabBar(configuration: configuration))
 		}
     }
 }
