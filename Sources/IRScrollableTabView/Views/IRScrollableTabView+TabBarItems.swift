@@ -76,6 +76,9 @@ extension IRScrollableTabView {
 			}
 				// We want to have the positions within this space.
 				.coordinateSpace(name: "IRReference")
+			
+				.background(self.configuration.destinationBackgroundColor)
+				.offset(y: 5)
 		}
 
 		

@@ -37,13 +37,16 @@ extension IRScrollableTabView {
 		
 		var body: some View {
 
-			Button(action: self.tabItemAction,
-				   label: {
-					IRScrollableTabView.ButtonLabel(configuration: configuration,
-													image: item.image,
-													title: item.title,
-													isSelected: isSelected)
-			})
+			GeometryReader { geo in
+				
+				Button(action: self.tabItemAction,
+					   label: {
+						IRScrollableTabView.ButtonLabel(configuration: self.configuration,
+														image: self.item.image,
+														title: self.item.title,
+														isSelected: self.isSelected)
+				})
+			}
 		}
 
 

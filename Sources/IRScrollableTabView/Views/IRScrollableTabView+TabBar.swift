@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import HFDesign
 
 
 extension IRScrollableTabView {
@@ -51,6 +52,7 @@ extension IRScrollableTabView {
 						.background(TabBarSetter())
 				}
 			}
+
 				// Our reference space.
 				.coordinateSpace(name: "TabBarReference")
 
@@ -58,7 +60,7 @@ extension IRScrollableTabView {
 				.onPreferenceChange(TabBarPreferenceKey.self) { preferences in
 					
 					self.rect = preferences.first?.rect ?? CGRect()
-			}
+				}
 		}
 	}
 

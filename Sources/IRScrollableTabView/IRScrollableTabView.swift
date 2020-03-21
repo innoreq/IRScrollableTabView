@@ -34,12 +34,14 @@ public struct IRScrollableTabView: View {
 
 			Rectangle()
 				.foregroundColor(configuration.separatorLineColor)
-				.frame(height: 2)
-			
-			IRScrollableTabView.TabBar(configuration: configuration)
+				.frame(height: 1)
+
+			Rectangle()
+				.foregroundColor(configuration.destinationBackgroundColor)
 				.frame(height: 90)
+				.shadow(radius: 10)
+				.overlay(IRScrollableTabView.TabBar(configuration: configuration))
 		}
-		.edgesIgnoringSafeArea(.all)
     }
 }
 

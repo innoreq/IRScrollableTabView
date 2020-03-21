@@ -27,6 +27,7 @@ extension IRScrollableTabView {
 		var body: some View {
 
 			return RoundedRectangle(cornerRadius: configuration.indicatorCornerRadius)
+				.inset(by: 4)
 				.foregroundColor(configuration.indicatorForegroundColor)
 				.shadow(radius: configuration.indicatorShadowRadius)
 		}

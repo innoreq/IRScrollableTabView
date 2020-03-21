@@ -42,8 +42,10 @@ extension IRScrollableTabView {
 			VStack {
 				
 				(self.image == nil ? Image(systemName: "unexisting") : self.image!)
+					.resizable()
+					.aspectRatio(1, contentMode: .fit)
 					.font(configuration.tabItemImageFont)
-					.padding([.bottom, .top], 5)
+					.padding(.all, 5)
 				
 				Text(self.title)
 					.font(configuration.tabItemTextFont)
